@@ -15,9 +15,4 @@ interface HolidayApiService {
         @Path("year") year: Int,
         @Path("countryCode") countryCode: String = "US"
     ): List<HolidayResponse>
-
-    companion object {
-        const val BASE_URL = "https://date.nager.at/api/v3/"
-    }
 }
-
