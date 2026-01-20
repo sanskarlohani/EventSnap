@@ -1,0 +1,38 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# --- Android / Gradle local-only files ---
+**/build/
+**/.gradle/
+**/out/
+
+# Local SDK configuration
+local.properties
+
+# Firebase config (project-specific secret)
+**/google-services.json
+
+# Signing keys (never commit)
+**/*.jks
+**/*.keystore
+
+# Crashlytics / mapping files
+**/mapping.txt
+**/crashlytics-build.properties
+
+# IDE settings
+.idea/
+*.ipr
+*.iws
